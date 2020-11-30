@@ -1,0 +1,54 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress run": "cypress run",
+    "cypress open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@cypress/webpack-preprocessor": "^5.4.4",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^8.1.0",
+    "cypress": "^6.0.0",
+    "cypress-failed-log": "2.7.0",
+    "cypress-promise": "^1.0.2",
+    "eslint": "^3.14.0",
+    "eslint-plugin-prettier": "^2.7.0",
+    "faker": "^4.1.0",
+    "flatted": "^2.0.0",
+    "fs-extra": "^7.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.2",
+    "mocha": "^5.0.0",
+    "mochawesome": "^3.1.2",
+    "prettier": "^1.18.2",
+    "prettier-eslint": "^6.4.2",
+    "webpack": "^4.44.1"
+  },
+  "dependencies": {
+    "xlsx": "^0.16.0",
+    "aws-sdk": "^2.554.0",
+    "axios": "^0.18.1",
+    "axios-delay": "^1.0.0-rc6",
+    "chai-almost": "^1.0.1",
+    "cypress-localstorage-commands": "1.2.1",
+    "cypress-log-to-output": "^1.1.1",
+    "cypress-terminal-report": "1.4.2",
+    "form-data": "^3.0.0",
+    "jspdf": "^1.5.3",
+    "lodash": "^4.17.11",
+    "mkdirp": "^0.5.1",
+    "mochawesome-merge": "^1.0.7"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "path/to/steps_definition"
+  }
+}
